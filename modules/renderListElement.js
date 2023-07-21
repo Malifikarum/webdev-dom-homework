@@ -1,5 +1,4 @@
 import { format } from "date-fns";
-// import { formatDate } from "../lib/formatDate/formatDate.js";
 import { listElement, loaderCommentElement, formElement, commentTextareaElement, nameInputElement } from "../main.js";
 import { initAnsverEvent } from "./initAnsverEvent.js";
 import { initDeleteEvent } from "./initDeleteEvent.js";
