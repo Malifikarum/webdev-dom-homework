@@ -38,8 +38,7 @@ export const enterComment = ({ listElement, listElementData, loaderCommentElemen
         .then(() => {
             formElement.style.display = 'flex';
             loaderCommentElement.style.display = 'none';
-            nameInputElement.value = '';
-            commentTextareaElement.value = '';
+            commentTextareaElement.value = "";
             nameInputElement.classList.remove('error');
             commentTextareaElement.classList.remove('error');
         })
